@@ -23,10 +23,10 @@
     />
   </head>
   <body class="font-['inter'] bg-[rgba(26,11,46,1)]">
-    <header>
-      <nav>
+    <header class="w-full">
+      <nav class="w-full">
         <section
-          class="nav-container flex justify-between w-[77%] mx-auto mt-[2%] items-center"
+          class="nav-container flex justify-between w-full mx-auto mt-[2%] items-center lg:max-w-[77%]"
         >
           <!-- border-black -->
           <h1 class="w-52 h-8 text-[rgba(255,255,255,1)] text-3xl">
@@ -67,24 +67,30 @@
         </section>
 
         <section
-          class="py-25 items-center justify-center  flex max-w-[1600px] max-h-[760px]  mt-8 bg-[url('./assets/hero-bg.png')] bg-cover bg-center bg-no-repeat sm:w-full sm:h-auto mt-0.5"
+          class="py-25 items-center justify-center flex max-w-[1600px] max-h-[760px] mt-8 bg-[url('./assets/hero-bg.png')] bg-cover bg-center bg-no-repeat sm:w-full sm:h-auto mt-0.5"
         >
-          <div class=" mx-auto max-w-[550px] max-h-[558px] py-2 sm:w-auto h-auto  ">
+          <div
+            class="mx-auto max-w-[550px] max-h-[558px] py-2 sm:w-auto h-auto"
+          >
             <!-- <img class="mx-auto" src="assets/hero-circle.png" alt="" /> -->
 
             <div
               class="flex justify-center items-center mx-auto rounded-full w-87 h-87 bg-gradient-to-r from-[rgba(247,233,63,1)] via-[rgba(251,9,180,1)] to-[rgba(145,0,248,1)]"
             >
-            <img src="assets/microphone.png" alt="">
-            <!-- <div class="absolute top-60 left-220 w-18 h-9 bg-green-400 flex justify-center items-center rounded-[10000px]">New</div> -->
-          </div>
+              <img src="assets/microphone.png" alt="" />
+              <!-- <div class="absolute top-60 left-220 w-18 h-9 bg-green-400 flex justify-center items-center rounded-[10000px]">New</div> -->
+            </div>
 
-            <div class="relative bottom-80 left-90 w-18 h-9 bg-green-400 flex justify-center items-center rounded-[10000px]">New</div>
+            <div
+              class="relative bottom-80 left-90 w-18 h-9 bg-green-400 flex justify-center items-center rounded-[10000px]"
+            >
+              New
+            </div>
 
             <div class="justify-centerv flex items-center flex-col">
               <!-- border-black -->
               <h1
-                class="mx-auto text-center w-52 h-8 text-[rgba(255,255,255,1)] text-4xl  mb-2"
+                class="mx-auto text-center w-52 h-8 text-[rgba(255,255,255,1)] text-4xl mb-2"
               >
                 TechWave
               </h1>
@@ -112,16 +118,80 @@
                 </button>
               </div>
             </div>
-
           </div>
-          
         </section>
-        
-
-
       </nav>
     </header>
 
+    <section class="w-full mx-auto">
+      <div class="mx-auto max-w-[70%] text-center">
+        <h1 class="text-3xl text-white/100 mb-[3%]">About The Prodcast</h1>
+        <p class="text-white/80">
+          TechWave is your go-to podcast for staying ahead in the fast-paced
+          world of technology. We break down complex topics into digestible
+          insights, explore productivity strategies that actually work, and
+          share stories of personal growth from industry leaders.
+          <br />
+          <br />
+          <br />
+          Join thousands of young professionals and tech enthusiasts who start
+          their day with TechWave.
+        </p>
+      </div>
+      <!-- line in bewtween -->
+      <div class="w-[70%] border my-20 border-white/10 mx-auto"></div>
+
+      <!-- <div class="grid grid-cols-1 gap-[50px]  mx-auto lg:grid-cols-4 "> -->
+      <!-- <div class="grid grid-cols-4 gap-[70px] max-w-[70%] mx-auto"></div> -->
+      <div
+        class="grid grid-cols-2 sm:grid-cols-2 gap-[50px] mx-auto lg:grid-cols-4 md:grid-cols-4"
+      >
+        <div class="flex flex-col justify-center items-center h-[58px] py-[3%]">
+          <h1
+            class="text-5xl text-green-400 font-black flex justify-center items-center"
+          >
+            150k
+            <i class="fa-solid fa-plus text-2xl text-green-400 font-black"></i>
+          </h1>
+          <p class="text-white/80">Monthly Listeners</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center h-[58px] py-[3%]">
+          <h1
+            class="text-5xl text-green-400 font-black flex justify-center items-center"
+          >
+            200k
+            <i class="fa-solid fa-plus text-2xl text-green-400 font-black"></i>
+          </h1>
+          <p class="text-white/80">Episodes Published</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center h-[58px] py-[3%]">
+          <h1
+            class="text-5xl text-green-400 font-black flex justify-center items-center"
+          >
+            4.9
+            <i
+              class="fa-sharp fa-solid fa-star text-2xl text-green-400 font-black"
+            ></i>
+          </h1>
+          <p class="text-white/80">Average Rating</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center h-[58px] py-[3%]">
+          <h1
+            class="text-5xl text-green-400 font-black flex justify-center items-center"
+          >
+            50
+            <i class="fa-solid fa-plus text-2xl text-green-400 font-black"></i>
+          </h1>
+          <p class="text-white/80">Industry Experts</p>
+        </div>
+      </div>
+    </section>
+
+
+    
     <footer></footer>
   </body>
 </html>

@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-2 by Nirjhor Akash Programming Hero</title>
+    <!-- cdn for tailwindcss -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- icon from google font awesome for nav button -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font-family class for the whole body -- inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-['inter'] bg-[rgba(26,11,46,1)]">
+    <header>
+      <nav>
+        <section
+          class="nav-container flex justify-between w-[77%] mx-auto mt-[2%] items-center"
+        >
+          <!-- border-black -->
+          <h1 class="w-52 h-8 text-[rgba(255,255,255,1)] text-3xl">
+            Tech<span
+              class="bg-gradient-to-r from-[rgba(247,233,63,1)] via-[rgba(251,9,180,1)] to-[rgba(145,0,248,1)] bg-clip-text text-transparent"
+              >Wave
+            </span>
+          </h1>
+
+          <div class="hidden md:block">
+            <!-- just to remmember purpose text-white/100 means opacity 100% -->
+            <ul
+              class="flex w-56 h-5 justify-between text-white/100 text-[16px] font-medium"
+            >
+              <li>
+                <a href="">About</a>
+              </li>
+              <li>
+                <a href="">Episodes</a>
+              </li>
+              <li>
+                <a href="">Host</a>
+              </li>
+            </ul>
+          </div>
+
+          <button
+            class="hidden md:block bg-gradient-to-r from-[rgba(247,233,63,1)] via-[rgba(251,9,180,1)] to-[rgba(145,0,248,1)] rounded-[10000px]"
+          >
+            <p class="text-white/100 py-[12.5px] pl-4 pr-5">
+              Subscribe <i class="fa-sharp fa-solid fa-arrow-right"></i>
+            </p>
+          </button>
+
+          <div class="block md:hidden">
+            <img src="assets/hamburger-menu.png" alt="" />
+          </div>
+        </section>
+
+        <section
+          class="py-25 items-center justify-center  flex max-w-[1600px] max-h-[760px]  mt-8 bg-[url('./assets/hero-bg.png')] bg-cover bg-center bg-no-repeat sm:w-full sm:h-auto mt-0.5"
+        >
+          <div class=" mx-auto max-w-[550px] max-h-[558px] py-2 sm:w-auto h-auto  ">
+            <!-- <img class="mx-auto" src="assets/hero-circle.png" alt="" /> -->
+
+            <div
+              class="flex justify-center items-center mx-auto rounded-full w-87 h-87 bg-gradient-to-r from-[rgba(247,233,63,1)] via-[rgba(251,9,180,1)] to-[rgba(145,0,248,1)]"
+            >
+            <img src="assets/microphone.png" alt="">
+            <!-- <div class="absolute top-60 left-220 w-18 h-9 bg-green-400 flex justify-center items-center rounded-[10000px]">New</div> -->
+          </div>
+
+            <div class="relative bottom-80 left-90 w-18 h-9 bg-green-400 flex justify-center items-center rounded-[10000px]">New</div>
+
+            <div class="justify-centerv flex items-center flex-col">
+              <!-- border-black -->
+              <h1
+                class="mx-auto text-center w-52 h-8 text-[rgba(255,255,255,1)] text-4xl  mb-2"
+              >
+                TechWave
+              </h1>
+              <p class="text-white/100">
+                Your daily dose of tech insights, productivity hacks, and
+                personal growth
+              </p>
+
+              <div class="flex p-3 gap-4">
+                <button
+                  class="items-center flex gap-2 bg-gradient-to-r from-[rgba(247,233,63,1)] via-[rgba(251,9,180,1)] to-[rgba(145,0,248,1)] rounded-[10000px] py-3 px-5 w-50"
+                >
+                  <img class="w-5 h-5" src="assets/spotify.png" alt="" />listen
+                  to spotify
+                </button>
+
+                <button
+                  class="flex gap-2 w-35 h-11 items-center text-[rgba(0,255,136,1)] font-semibold border-2 rounded-[10000px] py-3 px-5"
+                >
+                  <img
+                    class="w-5 h-5"
+                    src="assets/message.png"
+                    alt=""
+                  />Subscribe
+                </button>
+              </div>
+            </div>
+
+          </div>
+          
+        </section>
+        
+
+
+      </nav>
+    </header>
+
+    <footer></footer>
+  </body>
+</html>

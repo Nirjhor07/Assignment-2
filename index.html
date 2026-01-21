@@ -395,21 +395,23 @@
       <h2 class="text-5xl text-white font-bold mx-auto">Meet the Host</h2>
       <br />
 
-<!-- background color for the div class="bg-[rgba(53,17,101,0.4)]" -->
-<!-- but this bg color dosent match!! 
+      <!-- background color for the div class="bg-[rgba(53,17,101,0.4)]" -->
+      <!-- but this bg color dosent match!! 
 bg-gradient-to-r from-[rgba(0,0,0,1)] via-[rgba(83,60,114,1)] to-[rgba(53,17,101,0.4)] -->
-<!-- mx-auto items-center justify-center -->
+      <!-- mx-auto items-center justify-center -->
 
-      <div class="grid grid-cols-1  md:grid-cols-4 bg-[rgba(53,17,101,0.4)] p-9 rounded-3xl">
-
+      <div
+        class="grid grid-cols-1 md:grid-cols-4 bg-[rgba(53,17,101,0.4)] p-9 rounded-3xl"
+      >
         <!-- image div -->
         <div class="col-span-1 flex justify-center md:justify-star">
           <img src="assets/host.png" alt="" />
         </div>
 
         <!-- content div with icon -->
-        <div class="col-span-3 flex flex-col justify-center  md:justify-start text-left">
-
+        <div
+          class="col-span-3 flex flex-col justify-center md:justify-start text-left"
+        >
           <h2 class="text-3xl text-white font-bold">Alex Kumar</h2>
           <br />
           <p class="text-white/60 leading-6">
@@ -421,55 +423,97 @@ bg-gradient-to-r from-[rgba(0,0,0,1)] via-[rgba(83,60,114,1)] to-[rgba(53,17,101
           </p>
           <br />
 
-
           <div class="flex gap-2 items-center">
+            <div
+              class="w-10 h-10 rounded-[50%] flex items-center justify-center border border-[rgba(83,60,114,1)]"
+            >
+              <img
+                class="w-5 h-5"
+                src="assets/linkedin.png"
+                alt="linkedin icon its social media platform"
+              />
+            </div>
 
-           <div class="w-10 h-10 rounded-[50%] flex items-center justify-center
-           border border-[rgba(83,60,114,1)]">
-             <img class="w-5 h-5"
-              src="assets/linkedin.png"
-              alt="linkedin icon its social media platform"
-            />
-           </div>
+            <div
+              class="w-10 h-10 rounded-[50%] flex items-center justify-center border border-[rgba(83,60,114,1)]"
+            >
+              <img
+                class="w-5 h-5"
+                src="assets/x.png"
+                alt="twitter er notun chehara"
+              />
+            </div>
 
-            <div class="w-10 h-10 rounded-[50%] flex items-center justify-center
-           border border-[rgba(83,60,114,1)]">
-             <img class="w-5 h-5"
-            src="assets/x.png" alt="twitter er notun chehara" />
-           </div>
+            <div
+              class="w-10 h-10 rounded-[50%] flex items-center justify-center border border-[rgba(83,60,114,1)]"
+            >
+              <img
+                class="w-5 h-5"
+                src="assets/instagram.png"
+                alt="instagram another social media platform"
+              />
+            </div>
 
-
-             <div class="w-10 h-10 rounded-[50%] flex items-center justify-center
-           border border-[rgba(83,60,114,1)]">
-             <img class="w-5 h-5"
-              src="assets/instagram.png"
-              alt="instagram another social media platform"
-            />
-           </div>
-
-
-             <div class="w-10 h-10 rounded-[50%] flex items-center justify-center
-           border border-[rgba(83,60,114,1)]">
-             <img class="w-5 h-5"
-              src="assets/youtube.png"
-              alt="social media platform mostly video uploaded there"
-            />
-           </div>
-           
-
-
-           
-            
+            <div
+              class="w-10 h-10 rounded-[50%] flex items-center justify-center border border-[rgba(83,60,114,1)]"
+            >
+              <img
+                class="w-5 h-5"
+                src="assets/youtube.png"
+                alt="social media platform mostly video uploaded there"
+              />
+            </div>
           </div>
-
         </div>
-
       </div>
-
     </section>
 
+    <footer
+      class="w-full mt-[2%] bg-[url('Assets/footer-bg.png')] bg-cover bg-center bg-no-repeat"
+    >
+      <div
+        class="w-full h-auto items-center flex mx-auto lg:max-w-[80%]  p-[120px]"
+      >
+        <div class="w-[95%]  mx-auto">
+          <h1
+            class="w-52 h-8 text-[rgba(255,255,255,1)] font-black text-6xl text-center mx-auto"
+          >
+            Tech<span
+              class="bg-gradient-to-r from-[rgba(247,233,63,1)] via-[rgba(251,9,180,1)] to-[rgba(145,0,248,1)] bg-clip-text text-transparent font-black"
+              >Wave
+            </span>
+          </h1>
+          <br />
 
+          <div
+            class="mx-auto grid grid-cols-2 grid-rows-2 gap-2 lg:flex justify-between w-[555px] mt-[2%] "
+          >
+            <div class="flex gap-2 items-center">
+              <img src="assets/spotify.png" alt="" />
+              <p class="text-white font-medium">spotify</p>
+            </div>
 
-    <footer></footer>
+            <div class="flex gap-2 items-center">
+              <img src="assets/apple-podcast.png" alt="" />
+              <p class="text-white font-medium">AppleProdcats</p>
+            </div>
+
+            <div class="flex gap-2 items-center">
+              <img src="assets/youtube-podcast.png" alt="" />
+              <p class="text-white font-medium">Youtube</p>
+            </div>
+
+            <div class="flex gap-2 items-center">
+              <img src="assets/twitter.png" alt="" />
+              <p class="text-white font-medium">Twitter</p>
+            </div>
+          </div>
+
+          <p class="text-white/60 leading-6  text-center mt-[2%]">
+            © 2026 TechWave Podcast. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
